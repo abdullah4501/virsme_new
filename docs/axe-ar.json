@@ -1,0 +1,70 @@
+[
+  {
+    "path": "",
+    "violations": []
+  },
+  {
+    "path": "platform",
+    "violations": []
+  },
+  {
+    "path": "applications",
+    "violations": []
+  },
+  {
+    "path": "applications/connect",
+    "violations": []
+  },
+  {
+    "path": "applications/people",
+    "violations": []
+  },
+  {
+    "path": "applications/work",
+    "violations": []
+  },
+  {
+    "path": "applications/sales",
+    "violations": []
+  },
+  {
+    "path": "ai",
+    "violations": []
+  },
+  {
+    "path": "workflows",
+    "violations": []
+  },
+  {
+    "path": "implementation",
+    "violations": []
+  },
+  {
+    "path": "why-virsme",
+    "violations": []
+  },
+  {
+    "path": "pricing",
+    "violations": []
+  },
+  {
+    "path": "ecosystem",
+    "violations": []
+  },
+  {
+    "path": "about",
+    "violations": []
+  },
+  {
+    "path": "facts",
+    "violations": []
+  },
+  {
+    "path": "book-demo",
+    "violations": []
+  },
+  {
+    "path": "resources",
+    "violations": []
+  }
+]

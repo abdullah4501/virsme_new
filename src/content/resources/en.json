@@ -1,0 +1,52 @@
+{
+  "title": "VirSME Resources | Business Operations, Workflows and AI",
+  "description": "Evidence-backed guidance on connected business operations, workflow design, HCM, CRM, AI context and software strategy.",
+  "eyebrow": "",
+  "hero": "Practical guidance for running a more connected business.",
+  "intro": "",
+  "blocks": [
+    {
+      "kind": "heading",
+      "text": "Core content categories",
+      "items": []
+    },
+    {
+      "kind": "list",
+      "text": "",
+      "items": [
+        "Connected Business Operations",
+        "Workflow Design and SOP Automation",
+        "AI and Business Context",
+        "HCM and Employee Operations",
+        "CRM and Customer Operations",
+        "SME Software Strategy",
+        "Implementation and Change",
+        "Product Education"
+      ]
+    },
+    {
+      "kind": "heading",
+      "text": "Recommended launch articles",
+      "items": []
+    },
+    {
+      "kind": "list",
+      "text": "",
+      "items": [
+        "Why growing SMEs outgrow disconnected software stacks",
+        "What is a Business Operating System?",
+        "SOP automation: from document to execution",
+        "How AI should use policies and approval rules in business workflows",
+        "CRM vs business operating system: what is the difference?",
+        "HCM vs HR workflow tools: what growing SMEs should evaluate",
+        "How to map an end-to-end employee onboarding workflow",
+        "How to connect sales handoff to delivery without losing context"
+      ]
+    },
+    {
+      "kind": "cta",
+      "text": "Explore the Platform",
+      "items": []
+    }
+  ]
+}

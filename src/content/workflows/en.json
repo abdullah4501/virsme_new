@@ -1,0 +1,64 @@
+{
+  "title": "VirSME Workflows | Connect Business Processes End to End",
+  "description": "See how VirSME connects records, people, rules, approvals and modules around complete business workflows.",
+  "eyebrow": "",
+  "hero": "Stop managing one business process as five separate administrative jobs.",
+  "intro": "VirSME workflows connect records, people, modules, rules and approvals around one business outcome.",
+  "blocks": [
+    {
+      "kind": "heading",
+      "text": "Employee onboarding",
+      "items": []
+    },
+    {
+      "kind": "text",
+      "text": "Hiring can trigger employee setup, manager assignment, documents, policies, access, training, work allocation, payroll-related steps, notifications and review milestones.",
+      "items": []
+    },
+    {
+      "kind": "heading",
+      "text": "Sales to delivery",
+      "items": []
+    },
+    {
+      "kind": "text",
+      "text": "A won opportunity can carry customer context, scope, promises, ownership and next actions into delivery without a manual reset.",
+      "items": []
+    },
+    {
+      "kind": "heading",
+      "text": "Client request to action",
+      "items": []
+    },
+    {
+      "kind": "text",
+      "text": "A request can be identified, routed through the applicable SOP, prepared by AI, authorized where required and completed with an audit trail.",
+      "items": []
+    },
+    {
+      "kind": "heading",
+      "text": "Approvals across departments",
+      "items": []
+    },
+    {
+      "kind": "text",
+      "text": "Policies, thresholds and authority rules determine who should approve what, while the workflow keeps the context attached.",
+      "items": []
+    },
+    {
+      "kind": "heading",
+      "text": "Your workflow is the starting point",
+      "items": []
+    },
+    {
+      "kind": "text",
+      "text": "Bring the process that currently depends on spreadsheets, email, WhatsApp, repeated data entry or staff memory.",
+      "items": []
+    },
+    {
+      "kind": "cta",
+      "text": "Book a Workflow Demo",
+      "items": []
+    }
+  ]
+}

@@ -1,0 +1,89 @@
+{
+  "title": "VirSME Platform | One Operating Environment for the Business",
+  "description": "See how VirSME Core, Applications, AI and workflows create one connected operating environment for growing SMEs.",
+  "eyebrow": "",
+  "hero": "One operating environment for the business behind the software.",
+  "intro": "VirSME connects applications through one shared operating foundation so business context, workflows, permissions and AI can move with the work.",
+  "blocks": [
+    {
+      "kind": "heading",
+      "text": "The platform is more than the sum of its modules.",
+      "items": []
+    },
+    {
+      "kind": "heading",
+      "text": "VirSME Core",
+      "items": []
+    },
+    {
+      "kind": "text",
+      "text": "Shared identity, organisation structure, permissions, records, relationships, events, auditability and search.",
+      "items": []
+    },
+    {
+      "kind": "heading",
+      "text": "VirSME Applications",
+      "items": []
+    },
+    {
+      "kind": "text",
+      "text": "Connect, People, Work and Sales provide the established operating functions used by the business today.",
+      "items": []
+    },
+    {
+      "kind": "heading",
+      "text": "VirSME AI",
+      "items": []
+    },
+    {
+      "kind": "text",
+      "text": "A centralized intelligence and execution layer designed to understand business context, SOPs, policies, controls and authority structures.",
+      "items": []
+    },
+    {
+      "kind": "heading",
+      "text": "Workflow engine",
+      "items": []
+    },
+    {
+      "kind": "text",
+      "text": "Coordinates what should happen next across modules, including automated actions and human authorization points.",
+      "items": []
+    },
+    {
+      "kind": "heading",
+      "text": "One entity. One record. Many authorised uses.",
+      "items": []
+    },
+    {
+      "kind": "text",
+      "text": "Employees, customers and other business entities should not require unrelated copies in every application. Shared records preserve context and reduce duplication.",
+      "items": []
+    },
+    {
+      "kind": "heading",
+      "text": "Designed around operating relationships",
+      "items": []
+    },
+    {
+      "kind": "text",
+      "text": "The value is not simply that modules sit beside one another. The value is that records, events and business rules can connect the work between them.",
+      "items": []
+    },
+    {
+      "kind": "heading",
+      "text": "Configured around how your business works",
+      "items": []
+    },
+    {
+      "kind": "text",
+      "text": "Processes, roles, approvals and controls should reflect the operating model of the business rather than forcing every business into the same generic process.",
+      "items": []
+    },
+    {
+      "kind": "cta",
+      "text": "Book a Platform Workflow Demo",
+      "items": []
+    }
+  ]
+}

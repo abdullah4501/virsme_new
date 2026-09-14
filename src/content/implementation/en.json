@@ -1,0 +1,84 @@
+{
+  "title": "VirSME Implementation | From Workflow Demo to Controlled Rollout",
+  "description": "Understand the workflow-led process from discovery and configuration to commercial agreement, onboarding and controlled rollout.",
+  "eyebrow": "",
+  "hero": "Change the operating system without stopping the operation.",
+  "intro": "VirSME is sold through a consultative workflow-led process, not a generic self-service trial.",
+  "blocks": [
+    {
+      "kind": "heading",
+      "text": "1. Workflow Demo",
+      "items": []
+    },
+    {
+      "kind": "text",
+      "text": "Bring one real process and show us where the friction exists.",
+      "items": []
+    },
+    {
+      "kind": "heading",
+      "text": "2. Discovery",
+      "items": []
+    },
+    {
+      "kind": "text",
+      "text": "We map the people, systems, records, rules, approvals and desired outcome.",
+      "items": []
+    },
+    {
+      "kind": "heading",
+      "text": "3. Configuration and commercial proposal",
+      "items": []
+    },
+    {
+      "kind": "text",
+      "text": "We define the proposed VirSME scope, configuration and commercial terms.",
+      "items": []
+    },
+    {
+      "kind": "heading",
+      "text": "4. Commercial agreement",
+      "items": []
+    },
+    {
+      "kind": "text",
+      "text": "Both sides agree the scope and terms. There is no generic pilot period before commitment.",
+      "items": []
+    },
+    {
+      "kind": "heading",
+      "text": "5. Data preparation and onboarding",
+      "items": []
+    },
+    {
+      "kind": "text",
+      "text": "Prepare the required data, user structure, permissions and operating rules.",
+      "items": []
+    },
+    {
+      "kind": "heading",
+      "text": "6. Controlled rollout",
+      "items": []
+    },
+    {
+      "kind": "text",
+      "text": "Introduce the agreed workflows and users in a controlled manner.",
+      "items": []
+    },
+    {
+      "kind": "heading",
+      "text": "7. Expansion",
+      "items": []
+    },
+    {
+      "kind": "text",
+      "text": "Extend VirSME into additional workflows and capabilities as the business is ready.",
+      "items": []
+    },
+    {
+      "kind": "cta",
+      "text": "Book a Workflow Demo",
+      "items": []
+    }
+  ]
+}

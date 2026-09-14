@@ -1,0 +1,99 @@
+{
+  "title": "Why VirSME | Operate More of the Business as One System",
+  "description": "See how VirSME differs through complete business applications, shared operating context, SOP- aware AI and end-to-end workflow execution.",
+  "eyebrow": "",
+  "hero": "Do not choose VirSME because it has more features. Choose it because it can operate more of the business as one system.",
+  "intro": "Strong specialist tools, work platforms, broad suites and enterprise systems already exist. VirSME is designed around a different question: how can the business itself operate coherently across functions?",
+  "blocks": [
+    {
+      "kind": "heading",
+      "text": "If the problem is one department, a specialist tool may be enough.",
+      "items": []
+    },
+    {
+      "kind": "text",
+      "text": "A dedicated CRM, HCM or work tool can be the right answer when the problem is contained inside one function.",
+      "items": []
+    },
+    {
+      "kind": "heading",
+      "text": "If the problem is what happens between departments, evaluate the operating model.",
+      "items": []
+    },
+    {
+      "kind": "text",
+      "text": "VirSME is designed for businesses where the friction appears across employees, customers, work, communication, policies, approvals and recurring processes.",
+      "items": []
+    },
+    {
+      "kind": "heading",
+      "text": "What makes the approach different",
+      "items": []
+    },
+    {
+      "kind": "heading",
+      "text": "Complete business applications",
+      "items": []
+    },
+    {
+      "kind": "text",
+      "text": "The starting modules are designed for real functional depth, not as thin wrappers around a workflow engine.",
+      "items": []
+    },
+    {
+      "kind": "heading",
+      "text": "Shared operating context",
+      "items": []
+    },
+    {
+      "kind": "text",
+      "text": "Records and relationships can be reused across authorised functions.",
+      "items": []
+    },
+    {
+      "kind": "heading",
+      "text": "SOP and policy-aware AI",
+      "items": []
+    },
+    {
+      "kind": "text",
+      "text": "AI is designed to understand not only context, but how work is supposed to be done.",
+      "items": []
+    },
+    {
+      "kind": "heading",
+      "text": "End-to-end workflow execution",
+      "items": []
+    },
+    {
+      "kind": "text",
+      "text": "Processes can move across modules with minimal human intervention and human authorization where required.",
+      "items": []
+    },
+    {
+      "kind": "heading",
+      "text": "Built in a business environment",
+      "items": []
+    },
+    {
+      "kind": "text",
+      "text": "VirSME was designed and tested in live operations and is used as the primary operating solution across the functions covered by its established modules.",
+      "items": []
+    },
+    {
+      "kind": "heading",
+      "text": "Workflow-led implementation",
+      "items": []
+    },
+    {
+      "kind": "text",
+      "text": "The commercial conversation starts with your operating process, not a generic feature tour.",
+      "items": []
+    },
+    {
+      "kind": "cta",
+      "text": "Compare VirSME Against Your Current Workflow",
+      "items": []
+    }
+  ]
+}

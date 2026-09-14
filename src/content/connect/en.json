@@ -1,0 +1,49 @@
+{
+  "title": "VirSME Connect | Business Communication in Operating Context",
+  "description": "Connect business communication and collaboration to the people, customers and work it is about.",
+  "eyebrow": "",
+  "hero": "Communication should not live outside the work it is about.",
+  "intro": "VirSME Connect brings business communication and collaboration into the same operating context as people, work and customers.",
+  "blocks": [
+    {
+      "kind": "heading",
+      "text": "Reduce the gap between conversation and action",
+      "items": []
+    },
+    {
+      "kind": "text",
+      "text": "Turn important conversations into accountable next steps without forcing users to reconstruct context in another tool.",
+      "items": []
+    },
+    {
+      "kind": "heading",
+      "text": "Keep collaboration connected",
+      "items": []
+    },
+    {
+      "kind": "text",
+      "text": "Announcements, discussions and workplace communication can remain tied to the relevant employee, customer, project or workflow context.",
+      "items": []
+    },
+    {
+      "kind": "heading",
+      "text": "Business outcomes",
+      "items": []
+    },
+    {
+      "kind": "list",
+      "text": "",
+      "items": [
+        "Less context switching",
+        "Clearer accountability after conversations",
+        "Stronger connection between communication and execution",
+        "More consistent organisational communication"
+      ]
+    },
+    {
+      "kind": "cta",
+      "text": "Show Us a Communication-to-Action Workflow",
+      "items": []
+    }
+  ]
+}

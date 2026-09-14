@@ -1,0 +1,64 @@
+{
+  "title": "VirSME Applications | Connect, People, Work and Sales",
+  "description": "Explore four established VirSME modules designed to operate together on one shared business foundation.",
+  "eyebrow": "",
+  "hero": "Four established modules. Designed to operate as one business system.",
+  "intro": "Each module has functional depth of its own. The operating advantage appears when records, workflows and AI context move between them.",
+  "blocks": [
+    {
+      "kind": "heading",
+      "text": "Connect",
+      "items": []
+    },
+    {
+      "kind": "text",
+      "text": "Business communication and collaboration connected to the people, customers and work the conversation is about.",
+      "items": []
+    },
+    {
+      "kind": "heading",
+      "text": "People",
+      "items": []
+    },
+    {
+      "kind": "text",
+      "text": "HCM and workforce operations across the employee lifecycle, with connected records, onboarding, approvals, performance and related workforce processes.",
+      "items": []
+    },
+    {
+      "kind": "heading",
+      "text": "Work",
+      "items": []
+    },
+    {
+      "kind": "text",
+      "text": "Tasks, projects, recurring delivery, ownership, deadlines and operational execution.",
+      "items": []
+    },
+    {
+      "kind": "heading",
+      "text": "Sales",
+      "items": []
+    },
+    {
+      "kind": "text",
+      "text": "Full CRM and customer operations across leads, accounts, contacts, opportunities, pipeline, activities and handoffs into onboarding and delivery.",
+      "items": []
+    },
+    {
+      "kind": "heading",
+      "text": "Why they work better together",
+      "items": []
+    },
+    {
+      "kind": "text",
+      "text": "A customer won in Sales can move into delivery in Work. A new employee in People can receive access in Connect and tasks in Work. VirSME Core preserves the common context and VirSME AI can follow the relevant SOPs and policies across the process.",
+      "items": []
+    },
+    {
+      "kind": "cta",
+      "text": "Explore the Four Modules",
+      "items": []
+    }
+  ]
+}

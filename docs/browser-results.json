@@ -1,0 +1,489 @@
+{
+  "config": {
+    "argv": [
+      "C:\\Program Files\\nodejs\\node.exe",
+      "D:\\ABDULLAH\\virsme_new\\app_2\\node_modules\\@playwright\\test\\cli.js",
+      "test"
+    ],
+    "configFile": "D:\\ABDULLAH\\virsme_new\\app_2\\playwright.config.ts",
+    "rootDir": "D:/ABDULLAH/virsme_new/app_2/tests/browser",
+    "failOnFlakyTests": false,
+    "forbidOnly": false,
+    "fullyParallel": false,
+    "globalSetup": null,
+    "globalTeardown": null,
+    "globalTimeout": 0,
+    "grep": {},
+    "grepInvert": null,
+    "maxFailures": 0,
+    "metadata": {
+      "actualWorkers": 1
+    },
+    "preserveOutput": "always",
+    "projects": [
+      {
+        "outputDir": "D:/ABDULLAH/virsme_new/app_2/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "id": "",
+        "name": "",
+        "testDir": "D:/ABDULLAH/virsme_new/app_2/tests/browser",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 60000
+      }
+    ],
+    "quiet": false,
+    "reporter": [
+      [
+        "list",
+        null
+      ],
+      [
+        "json",
+        {
+          "outputFile": "docs/browser-results.json"
+        }
+      ]
+    ],
+    "reportSlowTests": {
+      "max": 5,
+      "threshold": 300000
+    },
+    "shard": null,
+    "tags": [],
+    "updateSnapshots": "missing",
+    "updateSourceMethod": "patch",
+    "version": "1.63.0",
+    "workers": 1,
+    "webServer": null
+  },
+  "suites": [
+    {
+      "title": "site.spec.ts",
+      "file": "site.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "en: all routes, metadata, headings and responsive widths",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 240000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 15855,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-14T13:45:03.332Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "5c02723ad68c2a0d50c5-12631bafbe8e4108d5c7",
+          "file": "site.spec.ts",
+          "line": 7,
+          "column": 2
+        },
+        {
+          "title": "en: accessibility audit all pages",
+          "ok": false,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 240000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "failed",
+                  "duration": 24738,
+                  "error": {
+                    "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoEqual\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // deep equality\u001b[22m\n\n\u001b[32m- Expected  -  1\u001b[39m\n\u001b[31m+ Received  + 29\u001b[39m\n\n\u001b[32m- Array []\u001b[39m\n\u001b[31m+ Array [\u001b[39m\n\u001b[31m+   Object {\u001b[39m\n\u001b[31m+     \"id\": \"color-contrast\",\u001b[39m\n\u001b[31m+     \"path\": \"applications/work\",\u001b[39m\n\u001b[31m+     \"targets\": Array [\u001b[39m\n\u001b[31m+       Array [\u001b[39m\n\u001b[31m+         \".breadcrumbs > a[href$=\\\"en/\\\"][data-discover=\\\"true\\\"]\",\u001b[39m\n\u001b[31m+       ],\u001b[39m\n\u001b[31m+       Array [\u001b[39m\n\u001b[31m+         \".breadcrumbs > a[href$=\\\"applications\\\"][data-discover=\\\"true\\\"]\",\u001b[39m\n\u001b[31m+       ],\u001b[39m\n\u001b[31m+       Array [\u001b[39m\n\u001b[31m+         \"span[aria-current=\\\"page\\\"]\",\u001b[39m\n\u001b[31m+       ],\u001b[39m\n\u001b[31m+     ],\u001b[39m\n\u001b[31m+   },\u001b[39m\n\u001b[31m+   Object {\u001b[39m\n\u001b[31m+     \"id\": \"color-contrast\",\u001b[39m\n\u001b[31m+     \"path\": \"ai\",\u001b[39m\n\u001b[31m+     \"targets\": Array [\u001b[39m\n\u001b[31m+       Array [\u001b[39m\n\u001b[31m+         \".breadcrumbs > a[href$=\\\"en/\\\"][data-discover=\\\"true\\\"]\",\u001b[39m\n\u001b[31m+       ],\u001b[39m\n\u001b[31m+       Array [\u001b[39m\n\u001b[31m+         \"span[aria-current=\\\"page\\\"]\",\u001b[39m\n\u001b[31m+       ],\u001b[39m\n\u001b[31m+     ],\u001b[39m\n\u001b[31m+   },\u001b[39m\n\u001b[31m+ ]\u001b[39m",
+                    "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoEqual\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // deep equality\u001b[22m\n\n\u001b[32m- Expected  -  1\u001b[39m\n\u001b[31m+ Received  + 29\u001b[39m\n\n\u001b[32m- Array []\u001b[39m\n\u001b[31m+ Array [\u001b[39m\n\u001b[31m+   Object {\u001b[39m\n\u001b[31m+     \"id\": \"color-contrast\",\u001b[39m\n\u001b[31m+     \"path\": \"applications/work\",\u001b[39m\n\u001b[31m+     \"targets\": Array [\u001b[39m\n\u001b[31m+       Array [\u001b[39m\n\u001b[31m+         \".breadcrumbs > a[href$=\\\"en/\\\"][data-discover=\\\"true\\\"]\",\u001b[39m\n\u001b[31m+       ],\u001b[39m\n\u001b[31m+       Array [\u001b[39m\n\u001b[31m+         \".breadcrumbs > a[href$=\\\"applications\\\"][data-discover=\\\"true\\\"]\",\u001b[39m\n\u001b[31m+       ],\u001b[39m\n\u001b[31m+       Array [\u001b[39m\n\u001b[31m+         \"span[aria-current=\\\"page\\\"]\",\u001b[39m\n\u001b[31m+       ],\u001b[39m\n\u001b[31m+     ],\u001b[39m\n\u001b[31m+   },\u001b[39m\n\u001b[31m+   Object {\u001b[39m\n\u001b[31m+     \"id\": \"color-contrast\",\u001b[39m\n\u001b[31m+     \"path\": \"ai\",\u001b[39m\n\u001b[31m+     \"targets\": Array [\u001b[39m\n\u001b[31m+       Array [\u001b[39m\n\u001b[31m+         \".breadcrumbs > a[href$=\\\"en/\\\"][data-discover=\\\"true\\\"]\",\u001b[39m\n\u001b[31m+       ],\u001b[39m\n\u001b[31m+       Array [\u001b[39m\n\u001b[31m+         \"span[aria-current=\\\"page\\\"]\",\u001b[39m\n\u001b[31m+       ],\u001b[39m\n\u001b[31m+     ],\u001b[39m\n\u001b[31m+   },\u001b[39m\n\u001b[31m+ ]\u001b[39m\n    at D:\\ABDULLAH\\virsme_new\\app_2\\tests\\browser\\site.spec.ts:8:626",
+                    "location": {
+                      "file": "D:\\ABDULLAH\\virsme_new\\app_2\\tests\\browser\\site.spec.ts",
+                      "column": 626,
+                      "line": 8
+                    },
+                    "snippet": "   6 | for(const locale of ['en','ar']){\n   7 |  test(`${locale}: all routes, metadata, headings and responsive widths`,async({page})=>{test.setTimeout(240000);const errors:string[]=[];page.on('pageerror',e=>errors.push(e.message));for(const path of paths){const response=await page.goto(`/${locale}/${path}`);expect(response?.status()).toBe(200);await expect(page.locator('h1')).toHaveCount(1);await expect(page.locator('html')).toHaveAttribute('lang',locale);await expect(page.locator('html')).toHaveAttribute('dir',locale==='ar'?'rtl':'ltr');await expect(page.locator('head title')).toHaveCount(1);await expect(page.locator('head link[rel=\"canonical\"]')).toHaveCount(1);await expect(page.locator('head link[hreflang]')).toHaveCount(3);for(const width of [320,375,768,1024,1280,1600]){await page.setViewportSize({width,height:900});await page.evaluate(()=>document.fonts.ready);const overflow=await page.evaluate(()=>document.documentElement.scrollWidth>window.innerWidth);expect(overflow,`${locale}/${path} at ${width}px`).toBe(false)}}expect(errors).toEqual([])})\n>  8 |  test(`${locale}: accessibility audit all pages`,async({page})=>{test.setTimeout(240000);await page.setViewportSize({width:1280,height:900});const report=[];for(const path of paths){await page.goto(`/${locale}/${path}`);await page.evaluate(()=>document.fonts.ready);const result=await new AxeBuilder({page}).withTags(['wcag2a','wcag2aa','wcag21aa']).analyze();report.push({path,violations:result.violations});}await mkdir('docs',{recursive:true});await writeFile(`docs/axe-${locale}.json`,JSON.stringify(report,null,2));expect(report.flatMap(r=>r.violations.map(v=>({path:r.path,id:v.id,targets:v.nodes.map(n=>n.target)})))).toEqual([])})\n     |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  ^\n   9 |  test(`${locale}: keyboard drawer and locale preserve route`,async({page})=>{await page.setViewportSize({width:375,height:812});await page.goto(`/${locale}/platform`);await page.locator('.menu-button').focus();await page.keyboard.press('Enter');await expect(page.locator('.mobile-dialog')).toBeVisible();await page.keyboard.press('Tab');expect(await page.evaluate(()=>!!document.activeElement?.closest('dialog'))).toBe(true);await page.keyboard.press('Escape');await expect(page.locator('.mobile-dialog')).not.toBeVisible();await expect(page.locator('.menu-button')).toBeFocused();await page.locator('.locale-switch').click();await expect(page).toHaveURL(new RegExp(`/${locale==='en'?'ar':'en'}/platform$`))})\n  10 |  test(`${locale}: form validation, unavailable and success states`,async({page})=>{await page.goto(`/${locale}/book-demo`);await page.locator('.form-submit').click();await expect(page.locator('[name=\"name\"]')).toBeFocused();await expect(page.locator('#error-name')).toBeVisible();for(const [name,value]of Object.entries({name:'QA Example',company:'Local Test Fixture',email:'qa@example.test',country:'Test',workflow:'Employee onboarding'}))await page.locator(`[name=\"${name}\"]`).fill(value);await page.locator('[name=\"employees\"]').selectOption('11-50');await page.route('**/api/demo',r=>r.fulfill({status:503,contentType:'application/json',body:JSON.stringify({ok:false,error:'unavailable'})}));await page.locator('.form-submit').click();await expect(page.locator('.form-alert')).toBeVisible();await page.unroute('**/api/demo');await page.route('**/api/demo',async r=>{const body=r.request().postDataJSON();expect(body.language).toBe(locale);await r.fulfill({status:200,contentType:'application/json',body:JSON.stringify({ok:true})})});await page.locator('.form-submit').click();await expect(page.locator('.form-success')).toBeVisible();await expect(page.locator('.form-success')).toBeFocused()})\n  11 |  test(`${locale}: requested desktop and mobile screenshots`,async({page})=>{test.setTimeout(180000);await mkdir('docs/screenshots',{recursive:true});for(const path of captures)for(const [device,width]of [['desktop',1440],['mobile',375]] as const){await page.setViewportSize({width,height:device==='desktop'?1000:812});await page.goto(`/${locale}/${path}`);await page.evaluate(()=>document.fonts.ready);await page.screenshot({path:`docs/screenshots/${locale}-${path.replaceAll('/','-')||'home'}-${device}.png`,fullPage:true})}})"
+                  },
+                  "errors": [
+                    {
+                      "location": {
+                        "file": "D:\\ABDULLAH\\virsme_new\\app_2\\tests\\browser\\site.spec.ts",
+                        "column": 626,
+                        "line": 8
+                      },
+                      "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoEqual\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // deep equality\u001b[22m\n\n\u001b[32m- Expected  -  1\u001b[39m\n\u001b[31m+ Received  + 29\u001b[39m\n\n\u001b[32m- Array []\u001b[39m\n\u001b[31m+ Array [\u001b[39m\n\u001b[31m+   Object {\u001b[39m\n\u001b[31m+     \"id\": \"color-contrast\",\u001b[39m\n\u001b[31m+     \"path\": \"applications/work\",\u001b[39m\n\u001b[31m+     \"targets\": Array [\u001b[39m\n\u001b[31m+       Array [\u001b[39m\n\u001b[31m+         \".breadcrumbs > a[href$=\\\"en/\\\"][data-discover=\\\"true\\\"]\",\u001b[39m\n\u001b[31m+       ],\u001b[39m\n\u001b[31m+       Array [\u001b[39m\n\u001b[31m+         \".breadcrumbs > a[href$=\\\"applications\\\"][data-discover=\\\"true\\\"]\",\u001b[39m\n\u001b[31m+       ],\u001b[39m\n\u001b[31m+       Array [\u001b[39m\n\u001b[31m+         \"span[aria-current=\\\"page\\\"]\",\u001b[39m\n\u001b[31m+       ],\u001b[39m\n\u001b[31m+     ],\u001b[39m\n\u001b[31m+   },\u001b[39m\n\u001b[31m+   Object {\u001b[39m\n\u001b[31m+     \"id\": \"color-contrast\",\u001b[39m\n\u001b[31m+     \"path\": \"ai\",\u001b[39m\n\u001b[31m+     \"targets\": Array [\u001b[39m\n\u001b[31m+       Array [\u001b[39m\n\u001b[31m+         \".breadcrumbs > a[href$=\\\"en/\\\"][data-discover=\\\"true\\\"]\",\u001b[39m\n\u001b[31m+       ],\u001b[39m\n\u001b[31m+       Array [\u001b[39m\n\u001b[31m+         \"span[aria-current=\\\"page\\\"]\",\u001b[39m\n\u001b[31m+       ],\u001b[39m\n\u001b[31m+     ],\u001b[39m\n\u001b[31m+   },\u001b[39m\n\u001b[31m+ ]\u001b[39m\n\n   6 | for(const locale of ['en','ar']){\n   7 |  test(`${locale}: all routes, metadata, headings and responsive widths`,async({page})=>{test.setTimeout(240000);const errors:string[]=[];page.on('pageerror',e=>errors.push(e.message));for(const path of paths){const response=await page.goto(`/${locale}/${path}`);expect(response?.status()).toBe(200);await expect(page.locator('h1')).toHaveCount(1);await expect(page.locator('html')).toHaveAttribute('lang',locale);await expect(page.locator('html')).toHaveAttribute('dir',locale==='ar'?'rtl':'ltr');await expect(page.locator('head title')).toHaveCount(1);await expect(page.locator('head link[rel=\"canonical\"]')).toHaveCount(1);await expect(page.locator('head link[hreflang]')).toHaveCount(3);for(const width of [320,375,768,1024,1280,1600]){await page.setViewportSize({width,height:900});await page.evaluate(()=>document.fonts.ready);const overflow=await page.evaluate(()=>document.documentElement.scrollWidth>window.innerWidth);expect(overflow,`${locale}/${path} at ${width}px`).toBe(false)}}expect(errors).toEqual([])})\n>  8 |  test(`${locale}: accessibility audit all pages`,async({page})=>{test.setTimeout(240000);await page.setViewportSize({width:1280,height:900});const report=[];for(const path of paths){await page.goto(`/${locale}/${path}`);await page.evaluate(()=>document.fonts.ready);const result=await new AxeBuilder({page}).withTags(['wcag2a','wcag2aa','wcag21aa']).analyze();report.push({path,violations:result.violations});}await mkdir('docs',{recursive:true});await writeFile(`docs/axe-${locale}.json`,JSON.stringify(report,null,2));expect(report.flatMap(r=>r.violations.map(v=>({path:r.path,id:v.id,targets:v.nodes.map(n=>n.target)})))).toEqual([])})\n     |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  ^\n   9 |  test(`${locale}: keyboard drawer and locale preserve route`,async({page})=>{await page.setViewportSize({width:375,height:812});await page.goto(`/${locale}/platform`);await page.locator('.menu-button').focus();await page.keyboard.press('Enter');await expect(page.locator('.mobile-dialog')).toBeVisible();await page.keyboard.press('Tab');expect(await page.evaluate(()=>!!document.activeElement?.closest('dialog'))).toBe(true);await page.keyboard.press('Escape');await expect(page.locator('.mobile-dialog')).not.toBeVisible();await expect(page.locator('.menu-button')).toBeFocused();await page.locator('.locale-switch').click();await expect(page).toHaveURL(new RegExp(`/${locale==='en'?'ar':'en'}/platform$`))})\n  10 |  test(`${locale}: form validation, unavailable and success states`,async({page})=>{await page.goto(`/${locale}/book-demo`);await page.locator('.form-submit').click();await expect(page.locator('[name=\"name\"]')).toBeFocused();await expect(page.locator('#error-name')).toBeVisible();for(const [name,value]of Object.entries({name:'QA Example',company:'Local Test Fixture',email:'qa@example.test',country:'Test',workflow:'Employee onboarding'}))await page.locator(`[name=\"${name}\"]`).fill(value);await page.locator('[name=\"employees\"]').selectOption('11-50');await page.route('**/api/demo',r=>r.fulfill({status:503,contentType:'application/json',body:JSON.stringify({ok:false,error:'unavailable'})}));await page.locator('.form-submit').click();await expect(page.locator('.form-alert')).toBeVisible();await page.unroute('**/api/demo');await page.route('**/api/demo',async r=>{const body=r.request().postDataJSON();expect(body.language).toBe(locale);await r.fulfill({status:200,contentType:'application/json',body:JSON.stringify({ok:true})})});await page.locator('.form-submit').click();await expect(page.locator('.form-success')).toBeVisible();await expect(page.locator('.form-success')).toBeFocused()})\n  11 |  test(`${locale}: requested desktop and mobile screenshots`,async({page})=>{test.setTimeout(180000);await mkdir('docs/screenshots',{recursive:true});for(const path of captures)for(const [device,width]of [['desktop',1440],['mobile',375]] as const){await page.setViewportSize({width,height:device==='desktop'?1000:812});await page.goto(`/${locale}/${path}`);await page.evaluate(()=>document.fonts.ready);await page.screenshot({path:`docs/screenshots/${locale}-${path.replaceAll('/','-')||'home'}-${device}.png`,fullPage:true})}})\n    at D:\\ABDULLAH\\virsme_new\\app_2\\tests\\browser\\site.spec.ts:8:626"
+                    }
+                  ],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-14T13:45:20.079Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "error-context",
+                      "contentType": "text/markdown",
+                      "path": "D:\\ABDULLAH\\virsme_new\\app_2\\test-results\\site-en-accessibility-audit-all-pages\\error-context.md"
+                    }
+                  ],
+                  "errorLocation": {
+                    "file": "D:\\ABDULLAH\\virsme_new\\app_2\\tests\\browser\\site.spec.ts",
+                    "column": 626,
+                    "line": 8
+                  }
+                }
+              ],
+              "status": "unexpected"
+            }
+          ],
+          "id": "5c02723ad68c2a0d50c5-aae680b9520b34b4aef4",
+          "file": "site.spec.ts",
+          "line": 8,
+          "column": 2
+        },
+        {
+          "title": "en: keyboard drawer and locale preserve route",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 2266,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-14T13:45:47.166Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "5c02723ad68c2a0d50c5-5a459b1b34728dff1dcf",
+          "file": "site.spec.ts",
+          "line": 9,
+          "column": 2
+        },
+        {
+          "title": "en: form validation, unavailable and success states",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 1755,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-14T13:45:52.209Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "5c02723ad68c2a0d50c5-a98353caebf59481654d",
+          "file": "site.spec.ts",
+          "line": 10,
+          "column": 2
+        },
+        {
+          "title": "en: requested desktop and mobile screenshots",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 180000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 9928,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-14T13:45:54.006Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "5c02723ad68c2a0d50c5-c64a4f4fc76899c03a47",
+          "file": "site.spec.ts",
+          "line": 11,
+          "column": 2
+        },
+        {
+          "title": "ar: all routes, metadata, headings and responsive widths",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 240000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 10478,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-14T13:46:03.961Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "5c02723ad68c2a0d50c5-4cf8c6662bc4b1101a20",
+          "file": "site.spec.ts",
+          "line": 7,
+          "column": 2
+        },
+        {
+          "title": "ar: accessibility audit all pages",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 240000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 18293,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-14T13:46:14.457Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "5c02723ad68c2a0d50c5-ac27c1d7c267f3a55d1b",
+          "file": "site.spec.ts",
+          "line": 8,
+          "column": 2
+        },
+        {
+          "title": "ar: keyboard drawer and locale preserve route",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 1484,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-14T13:46:32.766Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "5c02723ad68c2a0d50c5-f48ca9a051fce89a64ba",
+          "file": "site.spec.ts",
+          "line": 9,
+          "column": 2
+        },
+        {
+          "title": "ar: form validation, unavailable and success states",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 1928,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-14T13:46:34.266Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "5c02723ad68c2a0d50c5-8d43ca69049d8feb4900",
+          "file": "site.spec.ts",
+          "line": 10,
+          "column": 2
+        },
+        {
+          "title": "ar: requested desktop and mobile screenshots",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 180000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 7149,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-14T13:46:36.216Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "5c02723ad68c2a0d50c5-e415e6def23cc7b90510",
+          "file": "site.spec.ts",
+          "line": 11,
+          "column": 2
+        },
+        {
+          "title": "all internal links resolve; route output contains visible copy without JavaScript",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 6957,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-14T13:46:43.379Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "5c02723ad68c2a0d50c5-cfcdb3fcbdc42f2869c1",
+          "file": "site.spec.ts",
+          "line": 13,
+          "column": 1
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "stats": {
+    "startTime": "2026-09-14T13:45:02.038Z",
+    "duration": 109290.455,
+    "expected": 10,
+    "skipped": 0,
+    "unexpected": 1,
+    "flaky": 0
+  }
+}

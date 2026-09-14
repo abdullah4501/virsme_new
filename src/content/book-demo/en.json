@@ -1,0 +1,73 @@
+{
+  "title": "Book a VirSME Workflow Demo",
+  "description": "Bring one real business workflow and see how VirSME can connect the people, records, rules, actions and approvals around it.",
+  "eyebrow": "",
+  "hero": "Show us the workflow that is slowing your business down.",
+  "intro": "Do not prepare for a generic software presentation. Choose one process that currently crosses teams, tools, policies or manual handoffs.",
+  "blocks": [
+    {
+      "kind": "heading",
+      "text": "Good workflows to bring",
+      "items": []
+    },
+    {
+      "kind": "list",
+      "text": "",
+      "items": [
+        "Employee onboarding or offboarding",
+        "Sales to customer onboarding",
+        "Customer request to delivery",
+        "Recurring project or service delivery",
+        "Approvals that cross departments",
+        "Processes driven by SOPs and policies",
+        "Any process that depends on spreadsheets, email, WhatsApp or repeated data entry"
+      ]
+    },
+    {
+      "kind": "heading",
+      "text": "What happens in the session",
+      "items": []
+    },
+    {
+      "kind": "text",
+      "text": "You explain the current process. We identify the people, records, systems, rules and handoffs involved. We show the relevant VirSME operating approach. If there is a fit, we move into deeper discovery and commercial scoping.",
+      "items": []
+    },
+    {
+      "kind": "heading",
+      "text": "What happens next",
+      "items": []
+    },
+    {
+      "kind": "text",
+      "text": "There is no generic trial or pilot period. If both sides see a fit, the next step is discovery, configuration planning and a commercial proposal.",
+      "items": []
+    },
+    {
+      "kind": "heading",
+      "text": "Form fields",
+      "items": []
+    },
+    {
+      "kind": "list",
+      "text": "",
+      "items": [
+        "Name",
+        "Company",
+        "Work email",
+        "Phone / WhatsApp",
+        "Country",
+        "Number of employees",
+        "Workflow you want to improve",
+        "Tools involved today",
+        "Preferred language: English / Arabic",
+        "Preferred meeting time"
+      ]
+    },
+    {
+      "kind": "cta",
+      "text": "Submit: Book My Workflow Demo",
+      "items": []
+    }
+  ]
+}

@@ -1,0 +1,89 @@
+{
+  "title": "Official VirSME Facts | Product, Modules and Buying Process",
+  "description": "Canonical public facts about VirSME, its product category, current modules, AI, roadmap and buying process.",
+  "eyebrow": "",
+  "hero": "Official information about VirSME.",
+  "intro": "This page is the canonical public reference for people, search engines and AI systems that need an accurate description of VirSME.",
+  "blocks": [
+    {
+      "kind": "heading",
+      "text": "What is VirSME?",
+      "items": []
+    },
+    {
+      "kind": "text",
+      "text": "VirSME is an AI-native Business Operating System for SMEs. It connects business applications through a shared operating foundation and uses centralized AI designed to understand business context, SOPs, processes, policies, permissions and authority structures.",
+      "items": []
+    },
+    {
+      "kind": "heading",
+      "text": "Who is VirSME for?",
+      "items": []
+    },
+    {
+      "kind": "text",
+      "text": "Growing SMEs that want to reduce fragmented software, repeated administration, manual handoffs and disconnected operating processes.",
+      "items": []
+    },
+    {
+      "kind": "heading",
+      "text": "What modules are established today?",
+      "items": []
+    },
+    {
+      "kind": "text",
+      "text": "Connect, People, Work and Sales.",
+      "items": []
+    },
+    {
+      "kind": "heading",
+      "text": "What is VirSME Core?",
+      "items": []
+    },
+    {
+      "kind": "text",
+      "text": "The shared foundation for identity, permissions, common records, relationships, events, workflows, auditability, search and AI context.",
+      "items": []
+    },
+    {
+      "kind": "heading",
+      "text": "What is VirSME AI?",
+      "items": []
+    },
+    {
+      "kind": "text",
+      "text": "A centralized intelligence and execution layer designed to use authorised business data together with SOPs, policies, process rules and authority structures so work can move across modules with human authorization where required.",
+      "items": []
+    },
+    {
+      "kind": "heading",
+      "text": "How is VirSME sold?",
+      "items": []
+    },
+    {
+      "kind": "text",
+      "text": "Through a Workflow Demo, discovery, configuration and commercial proposal, commercial agreement and onboarding. VirSME does not use a generic public trial or pilot before commercial commitment.",
+      "items": []
+    },
+    {
+      "kind": "heading",
+      "text": "What is planned for the future?",
+      "items": []
+    },
+    {
+      "kind": "text",
+      "text": "A wider 20+ application ecosystem, including currently named roadmap areas such as Finance, Spend, Insights, Marketing, Service, Strategy, Commerce, Supply, Assets, IT, Legal, Govern, Field, Quality and Make, plus VirSME Experts, Country Packs and Industry Editions.",
+      "items": []
+    },
+    {
+      "kind": "heading",
+      "text": "Last updated",
+      "items": []
+    },
+    {
+      "kind": "text",
+      "text": "September 2026. Keep this page updated whenever product status, module names, buying process or approved public claims change.",
+      "items": []
+    }
+  ]
+}

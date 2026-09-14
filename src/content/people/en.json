@@ -1,0 +1,60 @@
+{
+  "title": "VirSME People | HCM and Workforce Operations",
+  "description": "Manage the employee lifecycle in a connected HCM environment linked to work, policies, permissions and business workflows.",
+  "eyebrow": "",
+  "hero": "Run the employee lifecycle as one connected operating process.",
+  "intro": "VirSME People is designed as a full HCM environment connected to communication, work, permissions, policies and wider business workflows.",
+  "blocks": [
+    {
+      "kind": "heading",
+      "text": "One employee context",
+      "items": []
+    },
+    {
+      "kind": "text",
+      "text": "Maintain the employee as one authorised business record instead of unrelated copies across HR, work, communication and approvals.",
+      "items": []
+    },
+    {
+      "kind": "heading",
+      "text": "From hire to exit",
+      "items": []
+    },
+    {
+      "kind": "text",
+      "text": "Coordinate onboarding, organisation structure, documents, policies, access, leave, approvals, performance, role changes, offboarding and other workforce processes through repeatable workflows.",
+      "items": []
+    },
+    {
+      "kind": "heading",
+      "text": "SOP and policy-aware execution",
+      "items": []
+    },
+    {
+      "kind": "text",
+      "text": "VirSME AI can use authorised HR policies, onboarding procedures, approval rules and role structures to determine the next required step and request human authorization where necessary.",
+      "items": []
+    },
+    {
+      "kind": "heading",
+      "text": "Business outcomes",
+      "items": []
+    },
+    {
+      "kind": "list",
+      "text": "",
+      "items": [
+        "Less repeated workforce administration",
+        "Clearer employee lifecycle ownership",
+        "Stronger connection between HCM and operational work",
+        "More consistent application of policies and processes",
+        "Better continuity as the organisation grows"
+      ]
+    },
+    {
+      "kind": "cta",
+      "text": "Show Us Your Employee Lifecycle Workflow",
+      "items": []
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "title": "VirSME Sales | Full CRM and Customer Operations",
+  "description": "Manage leads, accounts, contacts, opportunities, pipeline and customer workflows in one connected CRM environment.",
+  "eyebrow": "",
+  "hero": "Run the customer lifecycle as one connected operating process.",
+  "intro": "VirSME Sales is designed as a full CRM environment that manages the customer relationship from lead and opportunity through onboarding, delivery and the next business action.",
+  "blocks": [
+    {
+      "kind": "heading",
+      "text": "CRM depth without an isolated customer silo",
+      "items": []
+    },
+    {
+      "kind": "text",
+      "text": "Manage leads, accounts, contacts, opportunities, pipeline, activities and customer context while keeping the record connected to the operational work that follows.",
+      "items": []
+    },
+    {
+      "kind": "heading",
+      "text": "Turn won deals into operating workflows",
+      "items": []
+    },
+    {
+      "kind": "text",
+      "text": "When an opportunity is won, the relevant scope, commitments, customer context and next actions can move into onboarding and delivery instead of being rebuilt manually by another team.",
+      "items": []
+    },
+    {
+      "kind": "heading",
+      "text": "AI that follows the sales operating model",
+      "items": []
+    },
+    {
+      "kind": "text",
+      "text": "VirSME AI can use authorised sales SOPs, qualification rules, approval policies and handoff requirements to help coordinate what happens next.",
+      "items": []
+    },
+    {
+      "kind": "heading",
+      "text": "Business outcomes",
+      "items": []
+    },
+    {
+      "kind": "list",
+      "text": "",
+      "items": [
+        "Stronger pipeline and opportunity visibility",
+        "Less repeated customer data entry",
+        "Better sales-to-delivery handoffs",
+        "More consistent sales processes",
+        "Customer context that stays useful after the deal closes"
+      ]
+    },
+    {
+      "kind": "cta",
+      "text": "Show Us Your Sales-to-Delivery Workflow",
+      "items": []
+    }
+  ]
+}

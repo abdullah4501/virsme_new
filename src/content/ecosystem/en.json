@@ -1,0 +1,91 @@
+{
+  "title": "VirSME Ecosystem | Current Modules and Future Roadmap",
+  "description": "See the established VirSME foundation today and the evidence-led roadmap toward a broader 20+ application ecosystem.",
+  "eyebrow": "",
+  "hero": "A proven foundation today. A broader business operating ecosystem over time.",
+  "intro": "VirSME clearly separates what is established today from what is planned for the future.",
+  "blocks": [
+    {
+      "kind": "heading",
+      "text": "Established today",
+      "items": []
+    },
+    {
+      "kind": "list",
+      "text": "",
+      "items": [
+        "Connect",
+        "People",
+        "Work",
+        "Sales",
+        "VirSME Core as the shared operating foundation",
+        "VirSME AI as the centralized intelligence and execution layer"
+      ]
+    },
+    {
+      "kind": "heading",
+      "text": "Future application direction",
+      "items": []
+    },
+    {
+      "kind": "text",
+      "text": "The named roadmap areas currently include Finance, Spend, Insights, Marketing, Service, Strategy, Commerce, Supply, Assets, IT, Legal, Govern, Field, Quality and Make. The wider 20+ application vision remains evidence-led and may evolve with customer demand.",
+      "items": []
+    },
+    {
+      "kind": "heading",
+      "text": "Finance",
+      "items": []
+    },
+    {
+      "kind": "text",
+      "text": "Planned as a complete accounting and financial management environment, not merely a workflow connector.",
+      "items": []
+    },
+    {
+      "kind": "heading",
+      "text": "VirSME Experts",
+      "items": []
+    },
+    {
+      "kind": "text",
+      "text": "A planned professional ecosystem where businesses can find external experts and provide controlled access to relevant parts of VirSME.",
+      "items": []
+    },
+    {
+      "kind": "heading",
+      "text": "Country Packs",
+      "items": []
+    },
+    {
+      "kind": "text",
+      "text": "A localisation layer intended to adapt the same platform to country-specific rules, terminology and operating requirements.",
+      "items": []
+    },
+    {
+      "kind": "heading",
+      "text": "Industry Editions",
+      "items": []
+    },
+    {
+      "kind": "text",
+      "text": "Configurations and templates intended to adapt the same platform to different operating models and industries.",
+      "items": []
+    },
+    {
+      "kind": "heading",
+      "text": "Roadmap principle",
+      "items": []
+    },
+    {
+      "kind": "text",
+      "text": "VirSME will not build modules simply to increase the module count. Expansion should follow real customer need and preserve one coherent operating foundation.",
+      "items": []
+    },
+    {
+      "kind": "cta",
+      "text": "Explore the Current Platform",
+      "items": []
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "title": "VirSME | أساس مثبت اليوم، ومنظومة تشغيل أعمال أوسع مع الوقت.",
+  "description": "يفصل VirSME بوضوح بين ما هو راسخ اليوم وما هو مخطط للمستقبل.",
+  "eyebrow": "",
+  "hero": "أساس مثبت اليوم، ومنظومة تشغيل أعمال أوسع مع الوقت.",
+  "intro": "يفصل VirSME بوضوح بين ما هو راسخ اليوم وما هو مخطط للمستقبل.",
+  "blocks": [
+    {
+      "kind": "heading",
+      "text": "الراسخ اليوم",
+      "items": []
+    },
+    {
+      "kind": "list",
+      "text": "",
+      "items": [
+        "Connect",
+        "People",
+        "Work",
+        "Sales",
+        "VirSME Core كأساس تشغيلي مشترك",
+        "VirSME AI كطبقة ذكاء وتنفيذ مركزية"
+      ]
+    },
+    {
+      "kind": "heading",
+      "text": "اتجاه التطبيقات المستقبلية",
+      "items": []
+    },
+    {
+      "kind": "text",
+      "text": "تشمل المجالات المسماة حاليا Finance وSpend وInsights وMarketing وService وStrategy وCommerce وSupply وAssets وIT وLegal وGovern وField وQuality وMake، بينما تبقى رؤية أكثر من 20 تطبيقا خاضعة للأدلة واحتياجات العملاء.",
+      "items": []
+    },
+    {
+      "kind": "heading",
+      "text": "VirSME Experts",
+      "items": []
+    },
+    {
+      "kind": "text",
+      "text": "منظومة مهنية مخطط لها تتيح الوصول المنضبط للخبراء الخارجيين.",
+      "items": []
+    },
+    {
+      "kind": "heading",
+      "text": "Country Packs و Industry Editions",
+      "items": []
+    },
+    {
+      "kind": "text",
+      "text": "طبقات تهيئة محلية وقطاعية على نفس المنصة.",
+      "items": []
+    },
+    {
+      "kind": "cta",
+      "text": "استكشف المنصة الحالية",
+      "items": []
+    }
+  ]
+}

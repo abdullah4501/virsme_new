@@ -1,0 +1,61 @@
+{
+  "title": "About VirSME | Built in a Real Business Environment",
+  "description": "Learn how VirSME was designed and proven in live operations and why it is building a connected AI-native business operating environment.",
+  "eyebrow": "",
+  "hero": "Built inside a real business environment. Designed for the business behind the software.",
+  "intro": "VirSME began from an operating problem, not a feature checklist: growing businesses keep digitising one function at a time and then spend years managing the gaps between the systems they bought.",
+  "blocks": [
+    {
+      "kind": "heading",
+      "text": "Built and tested in live operations",
+      "items": []
+    },
+    {
+      "kind": "text",
+      "text": "The four established modules were designed and refined inside an operating business that now uses VirSME as its primary operating solution across the functions covered by Connect, People, Work and Sales.",
+      "items": []
+    },
+    {
+      "kind": "heading",
+      "text": "What exists today",
+      "items": []
+    },
+    {
+      "kind": "text",
+      "text": "Four established modules, one shared Core, centralized AI direction, commercial and market testing, and active client onboarding.",
+      "items": []
+    },
+    {
+      "kind": "heading",
+      "text": "What we are building toward",
+      "items": []
+    },
+    {
+      "kind": "text",
+      "text": "A broader AI-native operating ecosystem where complete applications, workflows and AI work from the same business environment.",
+      "items": []
+    },
+    {
+      "kind": "heading",
+      "text": "Product principles",
+      "items": []
+    },
+    {
+      "kind": "list",
+      "text": "",
+      "items": [
+        "Business context should move with the workflow.",
+        "Software should adapt around the operating process where possible.",
+        "AI should understand the business rules, not only the business data.",
+        "Humans should authorize judgement and high-impact actions.",
+        "Future modules should extend one shared foundation.",
+        "Product expansion should follow real customer need."
+      ]
+    },
+    {
+      "kind": "cta",
+      "text": "Book a Workflow Demo",
+      "items": []
+    }
+  ]
+}

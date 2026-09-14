@@ -1,0 +1,63 @@
+{
+  "title": "VirSME Work | Tasks, Projects and Operational Execution",
+  "description": "Manage tasks, projects, recurring delivery and operational workflows with clear ownership and connected business context.",
+  "eyebrow": "",
+  "hero": "Know what needs to happen, who owns it and what it connects to.",
+  "intro": "VirSME Work turns tasks, projects, recurring delivery and operational processes into visible, accountable execution connected to the wider business context.",
+  "blocks": [
+    {
+      "kind": "heading",
+      "text": "Replace invisible follow-up with visible ownership",
+      "items": []
+    },
+    {
+      "kind": "text",
+      "text": "Make responsibilities, deadlines, dependencies and status clear without relying on inbox chasing or memory.",
+      "items": []
+    },
+    {
+      "kind": "heading",
+      "text": "Keep work connected to business context",
+      "items": []
+    },
+    {
+      "kind": "text",
+      "text": "Customer work can stay tied to Sales context. Employee responsibilities can stay tied to People. Communication can stay connected through Connect.",
+      "items": []
+    },
+    {
+      "kind": "heading",
+      "text": "Standardise recurring delivery",
+      "items": []
+    },
+    {
+      "kind": "text",
+      "text": "Turn repeated operating routines into reusable workflows with clear owners, rules and checkpoints.",
+      "items": []
+    },
+    {
+      "kind": "heading",
+      "text": "Business outcomes",
+      "items": []
+    },
+    {
+      "kind": "list",
+      "text": "",
+      "items": ["Clearer ownership"]
+    },
+    {
+      "kind": "list",
+      "text": "",
+      "items": [
+        "More consistent delivery",
+        "Less manual follow-up",
+        "Better connection between operations and business records"
+      ]
+    },
+    {
+      "kind": "cta",
+      "text": "Show Us a Workflow You Want to Standardise",
+      "items": []
+    }
+  ]
+}

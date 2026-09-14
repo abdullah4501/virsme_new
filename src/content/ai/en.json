@@ -1,0 +1,75 @@
+{
+  "title": "VirSME AI | Business-Rule-Aware AI for End-to-End Workflows",
+  "description": "AI that understands business data, SOPs, processes, policies, permissions and authority structures to help execute authorised workflows end to end.",
+  "eyebrow": "",
+  "hero": "AI that understands how your business is supposed to operate.",
+  "intro": "Most business AI understands the information it can access. VirSME AI is designed to go further by combining authorised business context with SOPs, processes, policies, controls and authority structures.",
+  "blocks": [
+    {
+      "kind": "heading",
+      "text": "From context to execution",
+      "items": []
+    },
+    {
+      "kind": "text",
+      "text": "The objective is not merely to summarise information or draft text. It is to understand what should happen next and help execute the authorised workflow across VirSME modules.",
+      "items": []
+    },
+    {
+      "kind": "heading",
+      "text": "What VirSME AI can understand",
+      "items": []
+    },
+    {
+      "kind": "list",
+      "text": "",
+      "items": [
+        "Business data and relationships",
+        "SOPs and process sequences",
+        "Policies, thresholds and internal controls",
+        "Roles, permissions and authority",
+        "Required approvals and exception paths"
+      ]
+    },
+    {
+      "kind": "heading",
+      "text": "Minimal intervention. Human authorization where it matters.",
+      "items": []
+    },
+    {
+      "kind": "text",
+      "text": "Repeatable work can move automatically when rules are clear and permissions allow it. Judgement, exceptions, approvals and high-impact actions are routed to the authorised person.",
+      "items": []
+    },
+    {
+      "kind": "heading",
+      "text": "Example: hiring and onboarding",
+      "items": []
+    },
+    {
+      "kind": "text",
+      "text": "A hiring decision can trigger the approved onboarding process, employee record, required documents, access rules, training, work assignments, notifications and approval points across the relevant modules.",
+      "items": []
+    },
+    {
+      "kind": "heading",
+      "text": "Example: customer request",
+      "items": []
+    },
+    {
+      "kind": "text",
+      "text": "VirSME AI can identify the customer context, determine the applicable process, prepare the required actions or response, and route anything requiring authorization before completion.",
+      "items": []
+    },
+    {
+      "kind": "message",
+      "text": "AI that knows what to do next because it understands how your business operates.",
+      "items": []
+    },
+    {
+      "kind": "cta",
+      "text": "Book an AI Workflow Demo",
+      "items": []
+    }
+  ]
+}

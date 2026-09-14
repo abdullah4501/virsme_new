@@ -1,0 +1,51 @@
+{
+  "title": "VirSME Pricing | Commercial Scope Built Around Your Business",
+  "description": "VirSME pricing is prepared after understanding your users, applications, workflows and operating scope.",
+  "eyebrow": "",
+  "hero": "Pricing should reflect the business you need to run, not a generic feature bundle.",
+  "intro": "VirSME is configured around the agreed team, applications, workflows and operating scope. Final public pricing is not currently published.",
+  "blocks": [
+    {
+      "kind": "heading",
+      "text": "What influences the commercial proposal?",
+      "items": []
+    },
+    {
+      "kind": "list",
+      "text": "",
+      "items": [
+        "Number and type of users",
+        "Applications and capabilities required",
+        "Workflow and configuration complexity",
+        "Data preparation and onboarding requirements",
+        "AI usage and execution requirements where applicable",
+        "Future expansion scope"
+      ]
+    },
+    {
+      "kind": "heading",
+      "text": "How pricing works",
+      "items": []
+    },
+    {
+      "kind": "text",
+      "text": "Book a Workflow Demo, complete discovery, receive the proposed configuration and commercial scope, agree the terms, then begin onboarding.",
+      "items": []
+    },
+    {
+      "kind": "heading",
+      "text": "No generic trial before commitment",
+      "items": []
+    },
+    {
+      "kind": "text",
+      "text": "VirSME is not sold through a self-service free trial because the value depends on how the operating environment is configured around the business.",
+      "items": []
+    },
+    {
+      "kind": "cta",
+      "text": "Book a Workflow Demo",
+      "items": []
+    }
+  ]
+}

@@ -1,0 +1,215 @@
+{
+  "title": "VirSME | AI-Native Business Operating System for SMEs",
+  "description": "Run the business, not the software. VirSME connects business applications, workflows, SOPs, policies and AI in one operating environment for growing SMEs.",
+  "eyebrow": "AI-native Business Operating System for SMEs",
+  "hero": "Run the business, not the software.",
+  "intro": "VirSME combines established business applications with AI that understands your data, SOPs, processes, policies and authority structure, so work can move across the business instead of stopping at the boundary of each application.",
+  "blocks": [
+    {
+      "kind": "message",
+      "text": "Your business knows the rules. Now your software can too.",
+      "items": []
+    },
+    {
+      "kind": "cta",
+      "text": "Primary: Book a Workflow Demo | Secondary: Explore the Platform",
+      "items": []
+    },
+    {
+      "kind": "trust",
+      "text": "Four established modules. Commercially and market tested. Built and proven in real operating conditions. Actively onboarding businesses.",
+      "items": []
+    },
+    {
+      "kind": "heading",
+      "text": "Your business grew. Your software stack grew faster.",
+      "items": []
+    },
+    {
+      "kind": "text",
+      "text": "A CRM for customers. Another system for employees. Another for projects. Another for communication. Then spreadsheets, inboxes, approvals and people manually holding the gaps together.",
+      "items": []
+    },
+    {
+      "kind": "text",
+      "text": "The problem is not that every tool is bad. The problem is what happens between them.",
+      "items": []
+    },
+    {
+      "kind": "list",
+      "text": "",
+      "items": [
+        "Information gets entered more than once.",
+        "Processes stop when responsibility moves to another department.",
+        "Managers rebuild the state of the business from separate systems.",
+        "SOPs and policies live in documents while employees are expected to remember how to apply them.",
+        "AI can see information but may not understand how the business is supposed to act on it."
+      ]
+    },
+    {
+      "kind": "heading",
+      "text": "The problem is documented.",
+      "items": []
+    },
+    {
+      "kind": "text",
+      "text": "Independent SMB research from Salesforce reports that the average SMB uses seven business applications; 53% of SMB leaders report inconsistent data across business tools, 46% feel overwhelmed by too many tools, and 44% say there is not enough time to master all the technology they use.",
+      "items": []
+    },
+    {
+      "kind": "heading",
+      "text": "One operating environment for the whole business.",
+      "items": []
+    },
+    {
+      "kind": "text",
+      "text": "VirSME is designed around the operating flow of the business, not the boundary of each application.",
+      "items": []
+    },
+    {
+      "kind": "heading",
+      "text": "Keep business records connected",
+      "items": []
+    },
+    {
+      "kind": "text",
+      "text": "Create the core business record once, then use it appropriately across authorised functions.",
+      "items": []
+    },
+    {
+      "kind": "heading",
+      "text": "Execute workflows across modules",
+      "items": []
+    },
+    {
+      "kind": "text",
+      "text": "A business event can trigger the next required actions across People, Work, Sales and Connect instead of becoming a manual handoff.",
+      "items": []
+    },
+    {
+      "kind": "heading",
+      "text": "Turn SOPs and policies into operating instructions",
+      "items": []
+    },
+    {
+      "kind": "text",
+      "text": "VirSME AI is designed to understand how work should be performed, which rules apply and when authorization is required.",
+      "items": []
+    },
+    {
+      "kind": "heading",
+      "text": "Keep humans in control where they matter",
+      "items": []
+    },
+    {
+      "kind": "text",
+      "text": "Automate repeatable work while routing judgement, exceptions and approvals to the authorised person.",
+      "items": []
+    },
+    {
+      "kind": "heading",
+      "text": "Four established modules. One shared operating model.",
+      "items": []
+    },
+    {
+      "kind": "text",
+      "text": "Connect, People, Work and Sales are the established foundation of VirSME. They have been commercially and market tested over an extended period and are used in real operating conditions.",
+      "items": []
+    },
+    {
+      "kind": "list",
+      "text": "",
+      "items": [
+        "Connect - communication and collaboration connected to the work around it.",
+        "People - HCM and workforce operations connected to the employee lifecycle.",
+        "Work - tasks, projects, recurring delivery and operational execution.",
+        "Sales - full CRM and customer operations connected to onboarding and delivery."
+      ]
+    },
+    {
+      "kind": "cta",
+      "text": "Explore the Applications",
+      "items": []
+    },
+    {
+      "kind": "heading",
+      "text": "One business event should not create five separate admin jobs.",
+      "items": []
+    },
+    {
+      "kind": "text",
+      "text": "Example: a new employee can require records, manager assignment, access, permissions, documents, training, payroll-related setup, project allocation, notifications and future reviews. VirSME is designed to coordinate that chain as one governed workflow.",
+      "items": []
+    },
+    {
+      "kind": "cta",
+      "text": "See How Workflows Connect",
+      "items": []
+    },
+    {
+      "kind": "heading",
+      "text": "AI that understands how your business operates.",
+      "items": []
+    },
+    {
+      "kind": "text",
+      "text": "VirSME AI is designed to combine business context with SOPs, processes, policies, permissions and authority structures. The goal is not an assistant that only answers questions. The goal is an operating intelligence layer that can help move authorised work end to end, with human authorization where judgement or control is required.",
+      "items": []
+    },
+    {
+      "kind": "cta",
+      "text": "Explore VirSME AI",
+      "items": []
+    },
+    {
+      "kind": "heading",
+      "text": "Why VirSME instead of another tool?",
+      "items": []
+    },
+    {
+      "kind": "text",
+      "text": "A specialist tool may solve one departmental problem. A broad suite may give you many applications. VirSME is designed for the operating problem between departments: shared context, common records, governed workflows and AI that understands both the information and the rules of the business.",
+      "items": []
+    },
+    {
+      "kind": "cta",
+      "text": "Why VirSME",
+      "items": []
+    },
+    {
+      "kind": "heading",
+      "text": "Move without stopping the business.",
+      "items": []
+    },
+    {
+      "kind": "text",
+      "text": "Adoption starts with the workflows causing the most friction. We understand the current process, configure the relevant operating scope, prepare the commercial proposal, and plan onboarding and controlled rollout around the agreed business process.",
+      "items": []
+    },
+    {
+      "kind": "heading",
+      "text": "The longer fragmentation grows, the harder it becomes to simplify.",
+      "items": []
+    },
+    {
+      "kind": "text",
+      "text": "Every new disconnected application adds more data, permissions, processes and user habits. Build the connected operating foundation before software sprawl becomes an enterprise-sized problem.",
+      "items": []
+    },
+    {
+      "kind": "heading",
+      "text": "Show us the workflow that is slowing your business down.",
+      "items": []
+    },
+    {
+      "kind": "text",
+      "text": "A VirSME demo is not a generic tour through menus. Bring one real process. We will show how the people, records, rules, actions and approvals around it can work as one operating flow.",
+      "items": []
+    },
+    {
+      "kind": "cta",
+      "text": "Book a Workflow Demo",
+      "items": []
+    }
+  ]
+}
