@@ -122,7 +122,7 @@ export function Footer({ locale }: { locale: Locale }) {
     [legal, setLegal] = useState(""),
     dialog = useRef<HTMLDialogElement>(null);
   const groups: PageName[][] = [
-    [ "platform", "applications", "ai", "workflows", "ecosystem"],
+    ["platform", "applications", "ai", "workflows", "ecosystem"],
     ["about", "facts", "book-demo"],
     ["resources", "implementation"],
   ];

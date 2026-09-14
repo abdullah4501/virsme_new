@@ -1,6 +1,7 @@
 import type { IncomingMessage, ServerResponse } from "node:http";
 import { handleDemo } from "./demo-handler.ts";
-export async function demoNode(req: IncomingMessage, res: ServerResponse) {
+import type {DemoEnvironment} from './demo-handler.ts';
+export async function demoNode(req: IncomingMessage, res: ServerResponse, env:DemoEnvironment=process.env) {
   const chunks: Buffer[] = [];
   let size = 0;
   try {
@@ -25,7 +26,7 @@ export async function demoNode(req: IncomingMessage, res: ServerResponse) {
           ? { body: Buffer.concat(chunks) }
           : {}),
       }),
-      process.env,
+      env,
     );
     res.writeHead(response.status, Object.fromEntries(response.headers));
     res.end(await response.text());

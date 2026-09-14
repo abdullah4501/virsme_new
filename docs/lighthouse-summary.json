@@ -1,0 +1,74 @@
+[
+    {
+        "page":  "ar-ai",
+        "performance":  67,
+        "accessibility":  100,
+        "bestPractices":  100,
+        "seo":  100,
+        "lcp":  5312.9812,
+        "cls":  0.02139428779283338
+    },
+    {
+        "page":  "ar-book-demo",
+        "performance":  69,
+        "accessibility":  100,
+        "bestPractices":  100,
+        "seo":  100,
+        "lcp":  5002.785599999999,
+        "cls":  0.0104530377867594
+    },
+    {
+        "page":  "ar-home",
+        "performance":  65,
+        "accessibility":  100,
+        "bestPractices":  100,
+        "seo":  100,
+        "lcp":  5738.027400000001,
+        "cls":  0.005512916547833009
+    },
+    {
+        "page":  "ar-platform",
+        "performance":  69,
+        "accessibility":  100,
+        "bestPractices":  100,
+        "seo":  100,
+        "lcp":  5008.454900000001,
+        "cls":  0.007331499727076172
+    },
+    {
+        "page":  "en-ai",
+        "performance":  78,
+        "accessibility":  100,
+        "bestPractices":  100,
+        "seo":  100,
+        "lcp":  3957.691,
+        "cls":  0.05770618355620643
+    },
+    {
+        "page":  "en-book-demo",
+        "performance":  77,
+        "accessibility":  100,
+        "bestPractices":  100,
+        "seo":  100,
+        "lcp":  4251.3796,
+        "cls":  0.01686505007167861
+    },
+    {
+        "page":  "en-home",
+        "performance":  64,
+        "accessibility":  100,
+        "bestPractices":  100,
+        "seo":  100,
+        "lcp":  4452.4872000000005,
+        "cls":  0.002278112564347735
+    },
+    {
+        "page":  "en-platform",
+        "performance":  75,
+        "accessibility":  100,
+        "bestPractices":  100,
+        "seo":  100,
+        "lcp":  4042.2999,
+        "cls":  0.006975097300738121
+    }
+]

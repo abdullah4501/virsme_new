@@ -10,7 +10,7 @@
     "preview": "tsx server/index.ts",
     "typecheck": "tsc -b",
     "start": "tsx server/index.ts",
-    "check:content": "node scripts/check-content.mjs",
+    "check:content": "node scripts/check-content.mjs && tsx scripts/check-ui-parity.ts",
     "format": "prettier --write src server shared scripts tests *.json *.ts *.js *.html",
     "test": "tsx --test tests/server.test.ts",
     "test:browser": "playwright test"

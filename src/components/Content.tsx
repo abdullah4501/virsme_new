@@ -1,7 +1,7 @@
 import { Fragment } from "react";
 import { Link } from "react-router-dom";
 import type { Block, Locale, PageName } from "../content/types";
-import type {ContentSection} from '../lib/sections';
+import type { ContentSection } from "../lib/sections";
 import { ui } from "../content/ui";
 import { pathFor } from "../lib/routes";
 import { track } from "../lib/analytics";
@@ -62,7 +62,7 @@ export function SectionCopy({
 }) {
   return (
     <div className="section-copy">
-      {(level===3 || (small && level!==2)) ? (
+      {level === 3 || (small && level !== 2) ? (
         <h3>
           <Text>{section.heading}</Text>
         </h3>

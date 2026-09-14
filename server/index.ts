@@ -2,6 +2,8 @@ import { createServer } from "node:http";
 import { readFile, stat } from "node:fs/promises";
 import { resolve, extname, sep } from "node:path";
 import { demoNode } from "./node-adapter.ts";
+import {existsSync} from 'node:fs';
+if(existsSync('.env'))process.loadEnvFile('.env');
 const root = resolve("dist"),
   port = Number(process.env.PORT || 4173);
 const mime: Record<string, string> = {

@@ -6,7 +6,6 @@ import { pathFor } from "../lib/routes";
 import { track } from "../lib/analytics";
 import { Breadcrumbs } from "../components/Shell";
 import {
-  AiOperatingModelDiagram,
   CoreArchitectureDiagram,
   WorkflowVisual,
   ModuleIcon,
@@ -18,8 +17,13 @@ import {
   CtaBand,
   RelatedLinks,
 } from "../components/Content";
-import {sections} from '../lib/sections';
-import {FaqAccordion} from '../components/FaqAccordion';
+import { sections } from "../lib/sections";
+import { FaqAccordion } from "../components/FaqAccordion";
+import {
+  DashboardPreview,
+  IntelligencePreview,
+} from "../components/DashboardPreview";
+import type { PreviewMode } from "../content/previews";
 import { DemoForm } from "../components/DemoForm";
 export default function Page({
   locale,
@@ -35,22 +39,11 @@ export default function Page({
     isModule = moduleIndex >= 0;
   const visual =
     page === "ai" ? (
-      <AiOperatingModelDiagram locale={locale} />
+      <IntelligencePreview locale={locale} />
     ) : page === "platform" ? (
       <CoreArchitectureDiagram locale={locale} />
     ) : isModule ? (
-      <WorkflowVisual
-        locale={locale}
-        variant={
-          page === "sales"
-            ? 1
-            : page === "connect"
-              ? 2
-              : page === "work"
-                ? 3
-                : 0
-        }
-      />
+      <DashboardPreview locale={locale} initial={page as PreviewMode} />
     ) : null;
   const cta = p.blocks.findLast((b) => b.kind === "cta")?.text;
   return (
@@ -111,7 +104,13 @@ export default function Page({
           <div className="demo-context">
             {s
               .filter((v) => !["Form fields"].includes(v.heading))
-              .map((v,i) => i===0 ? <SectionCopy key={v.heading} section={v} small level={2}/> : <FaqAccordion key={v.heading} section={v}/>)}
+              .map((v, i) =>
+                i === 0 ? (
+                  <SectionCopy key={v.heading} section={v} small level={2} />
+                ) : (
+                  <FaqAccordion key={v.heading} section={v} />
+                ),
+              )}
           </div>
           <DemoForm locale={locale} />
         </div>
@@ -130,7 +129,7 @@ export default function Page({
               .filter((v) => !["Last updated", "آخر تحديث"].includes(v.heading))
               .map((v) => (
                 <section key={v.heading}>
-                  <SectionCopy section={v} small level={2}/>
+                  <SectionCopy section={v} small level={2} />
                 </section>
               ))}
           </div>
@@ -259,9 +258,7 @@ export default function Page({
                         className={`article-art article-art-${i % 4}`}
                         aria-hidden="true"
                       >
-                        <span />
-                        <span />
-                        <span />
+                        <img src={`/images/${['people','work','sales','connect'][i%4]}-concept.webp`} alt="" width="900" height="780" loading="lazy"/>
                       </div>
                       <span className="coming-soon">{t.soon}</span>
                       <h3>{item}</h3>

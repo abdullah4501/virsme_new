@@ -6,17 +6,15 @@ import { pathFor } from "../lib/routes";
 import { track } from "../lib/analytics";
 import {
   CoreArchitectureDiagram,
-  AiOperatingModelDiagram,
   WorkflowVisual,
   ModuleIcon,
 } from "../components/Diagrams";
+import { Text, SectionCopy, CopyBlocks, CtaBand } from "../components/Content";
+import { sections } from "../lib/sections";
 import {
-  Text,
-  SectionCopy,
-  CopyBlocks,
-  CtaBand,
-} from "../components/Content";
-import {sections} from '../lib/sections';
+  DashboardPreview,
+  IntelligencePreview,
+} from "../components/DashboardPreview";
 export default function Home({ locale }: { locale: Locale }) {
   const p = content("home", locale),
     t = ui(locale),
@@ -75,7 +73,7 @@ export default function Home({ locale }: { locale: Locale }) {
             </Text>
           </p>
         </div>
-        <CoreArchitectureDiagram locale={locale} />
+        <DashboardPreview locale={locale} compact />
       </section>
       <div className="trust-band">
         <div className="container">
@@ -128,8 +126,11 @@ export default function Home({ locale }: { locale: Locale }) {
         </section>
       )}
       <section className="section container">
-        <div className="section-heading">
-          <SectionCopy section={valueIntro} />
+        <div className="value-intro">
+          <div className="section-heading">
+            <SectionCopy section={valueIntro} />
+          </div>
+          <CoreArchitectureDiagram locale={locale} />
         </div>
         <div className="value-grid">
           {values.map((v, i) => (
@@ -209,7 +210,7 @@ export default function Home({ locale }: { locale: Locale }) {
               {t.aiExplore}
             </Link>
           </div>
-          <AiOperatingModelDiagram locale={locale} />
+          <IntelligencePreview locale={locale} />
         </div>
       </section>
       {en && (
@@ -229,7 +230,7 @@ export default function Home({ locale }: { locale: Locale }) {
                 </span>
                 <p>{sections(content("why-virsme", locale))[1].heading}</p>
                 <Link className="text-link" to={pathFor("why-virsme", locale)}>
-                  {t.nav[4]}
+                  {t.pageNames[10]}
                 </Link>
               </div>
             </div>
