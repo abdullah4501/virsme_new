@@ -54,9 +54,12 @@ for (const locale of ["en", "ar"])
   }
 await writeFile(
   "dist/index.html",
-  '<!doctype html><html lang="en"><head><meta charset="UTF-8"><meta http-equiv="refresh" content="0;url=/en/"><title>VirSME</title><link rel="canonical" href="' +
-    escape(origin) +
-    '/en/"></head><body><a href="/en/">VirSME</a></body></html>',
+  template.replace(
+    "</head>",
+    '<meta http-equiv="refresh" content="0;url=/en/"><title>VirSME</title><link rel="canonical" href="' +
+      escape(origin) +
+      '/en/"></head>',
+  ),
 );
 await writeFile(
   "dist/404.html",

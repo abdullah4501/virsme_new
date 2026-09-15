@@ -19,12 +19,9 @@ import {
 } from "../components/Content";
 import { sections } from "../lib/sections";
 import { FaqAccordion } from "../components/FaqAccordion";
-import {
-  DashboardPreview,
-  IntelligencePreview,
-} from "../components/DashboardPreview";
-import type { PreviewMode } from "../content/previews";
 import { DemoForm } from "../components/DemoForm";
+import { heroArtwork, heroHeading } from "../content/hero-headings";
+import type { CSSProperties } from "react";
 export default function Page({
   locale,
   page,
@@ -37,18 +34,16 @@ export default function Page({
     s = sections(p),
     moduleIndex = ["connect", "people", "work", "sales"].indexOf(page),
     isModule = moduleIndex >= 0;
-  const visual =
-    page === "ai" ? (
-      <IntelligencePreview locale={locale} />
-    ) : page === "platform" ? (
-      <CoreArchitectureDiagram locale={locale} />
-    ) : isModule ? (
-      <DashboardPreview locale={locale} initial={page as PreviewMode} />
-    ) : null;
+  const art = heroArtwork(page);
   const cta = p.blocks.findLast((b) => b.kind === "cta")?.text;
+  const heroIntro =
+    p.intro || (page === "resources" ? p.description || p.hero : "");
+  const heroStyle = {
+    "--page-hero-image": `url('/images/hero-${art}.webp')`,
+  } as CSSProperties;
   return (
     <div className={`page page-${page}`}>
-      <section className={`page-hero ${visual ? "has-visual" : ""}`}>
+      <section className="page-hero has-visual" style={heroStyle}>
         <div className="container">
           <Breadcrumbs locale={locale} page={page} />
           <div className="page-hero-grid">
@@ -70,11 +65,11 @@ export default function Page({
                 </div>
               )}
               <h1>
-                <Text>{p.hero}</Text>
+                <Text>{heroHeading(page, locale, p.hero)}</Text>
               </h1>
-              {p.intro && (
+              {heroIntro && (
                 <p className="page-intro">
-                  <Text>{p.intro}</Text>
+                  <Text>{heroIntro}</Text>
                 </p>
               )}
               {!["facts", "resources", "book-demo"].includes(page) && (
@@ -89,13 +84,20 @@ export default function Page({
                   </Link>
                 </div>
               )}
+              {page === "resources" && (
+                <div className="hero-buttons">
+                  <Link className="button" to={pathFor("platform", locale)}>
+                    {cta ?? t.platform}
+                    <span aria-hidden="true">↗</span>
+                  </Link>
+                </div>
+              )}
               {page === "facts" && (
                 <p className="updated">
                   {t.updated}: <time dateTime="2026-09">{t.factsDate}</time>
                 </p>
               )}
             </div>
-            {visual}
           </div>
         </div>
       </section>

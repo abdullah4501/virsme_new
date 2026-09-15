@@ -1,6 +1,28 @@
 import type { Locale } from "../content/types";
 import { ui } from "../content/ui";
 const names = ["Connect", "People", "Work", "Sales"];
+export function OperatingChoiceIcon({ connected = false }: { connected?: boolean }) {
+  return connected ? (
+    <svg className="operating-choice-svg" viewBox="0 0 64 64" aria-hidden="true">
+      <path className="choice-link" d="M18 17 29 28M46 17 35 28M18 47l11-11M46 47 35 36" />
+      <circle className="choice-node node-blue" cx="14" cy="14" r="7" />
+      <circle className="choice-node node-purple" cx="50" cy="14" r="7" />
+      <circle className="choice-node node-green" cx="14" cy="50" r="7" />
+      <circle className="choice-node node-blue" cx="50" cy="50" r="7" />
+      <path className="choice-core" d="m32 22 10 6v12l-10 6-10-6V28l10-6Z" />
+      <path className="choice-check" d="m27.5 34 3 3 6-7" />
+    </svg>
+  ) : (
+    <svg className="operating-choice-svg" viewBox="0 0 64 64" aria-hidden="true">
+      <rect className="choice-window" x="10" y="10" width="44" height="44" rx="11" />
+      <path className="choice-window-top" d="M10 22h44" />
+      <circle className="choice-dot node-green" cx="18" cy="16" r="2" />
+      <circle className="choice-dot node-blue" cx="25" cy="16" r="2" />
+      <path className="choice-focus" d="M20 31h24v14H20z" />
+      <path className="choice-focus-line" d="M25 36h14M25 41h9" />
+    </svg>
+  );
+}
 export function ModuleIcon({ index }: { index: number }) {
   return (
     <svg
@@ -91,7 +113,9 @@ export function WorkflowVisual({
   variant?: number;
 }) {
   const t = ui(locale),
-    steps = [t.steps, t.salesSteps, t.requestSteps, t.approvalSteps][variant];
+    steps = [t.steps, t.salesSteps, t.requestSteps, t.approvalSteps][variant],
+    artwork = ["people", "policy", "work", "connect"],
+    moduleIcons = variant === 1 ? [3, -1, 2, 0] : [1, -1, 2, 0];
   return (
     <figure className="workflow-visual">
       <figcaption>{t.concept}</figcaption>
@@ -102,15 +126,29 @@ export function WorkflowVisual({
       <ol className="workflow-chain">
         {steps.map((step, i) => (
           <li key={step}>
-            <span className="step-number">{i + 1}</span>
-            <strong>{step}</strong>
-            <small dir="ltr">
-              {
-                (variant === 1
-                  ? ["Sales", "Core", "Work", "Connect"]
-                  : ["People", "Core", "Work", "Connect"])[i]
-              }
-            </small>
+            <div className="workflow-step-art" aria-hidden="true">
+              <img src={`/images/workflow-${artwork[i]}.webp`} alt="" />
+              <span className="workflow-module-mark">
+                {moduleIcons[i] < 0 ? (
+                  <img src="/brand/icon.png" alt="" />
+                ) : (
+                  <ModuleIcon index={moduleIcons[i]} />
+                )}
+              </span>
+            </div>
+            <div className="workflow-step-copy">
+              <span className="step-number">{i + 1}</span>
+              <span>
+                <strong>{step}</strong>
+                <small dir="ltr">
+                  {
+                    (variant === 1
+                      ? ["Sales", "Core", "Work", "Connect"]
+                      : ["People", "Core", "Work", "Connect"])[i]
+                  }
+                </small>
+              </span>
+            </div>
           </li>
         ))}
       </ol>

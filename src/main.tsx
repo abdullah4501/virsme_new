@@ -15,3 +15,12 @@ const app = (
 const root = document.getElementById("root")!;
 if (root.hasChildNodes()) hydrateRoot(root, app);
 else createRoot(root).render(app);
+
+requestAnimationFrame(() =>
+  requestAnimationFrame(() => {
+    const loader = document.getElementById("initial-loader");
+    if (!loader) return;
+    loader.classList.add("initial-loader-hidden");
+    window.setTimeout(() => loader.remove(), 320);
+  }),
+);

@@ -8,6 +8,7 @@ import {
   CoreArchitectureDiagram,
   WorkflowVisual,
   ModuleIcon,
+  OperatingChoiceIcon,
 } from "../components/Diagrams";
 import { Text, SectionCopy, CopyBlocks, CtaBand } from "../components/Content";
 import { sections } from "../lib/sections";
@@ -30,6 +31,7 @@ export default function Home({ locale }: { locale: Locale }) {
   const modulePages: PageName[] = ["connect", "people", "work", "sales"];
   return (
     <>
+      <div className="home-hero-surface">
       <section className="home-hero container">
         <div className="hero-copy">
           <div className="eyebrow">
@@ -75,6 +77,7 @@ export default function Home({ locale }: { locale: Locale }) {
         </div>
         <DashboardPreview locale={locale} compact />
       </section>
+      </div>
       <div className="trust-band">
         <div className="container">
           <span className="trust-mark" aria-hidden="true">
@@ -220,13 +223,13 @@ export default function Home({ locale }: { locale: Locale }) {
             <div className="operating-fork">
               <div>
                 <span className="fork-symbol" aria-hidden="true">
-                  ◻
+                  <OperatingChoiceIcon />
                 </span>
                 <p>{content("why-virsme", locale).blocks[0].text}</p>
               </div>
               <div>
                 <span className="fork-symbol" aria-hidden="true">
-                  ▦
+                  <OperatingChoiceIcon connected />
                 </span>
                 <p>{sections(content("why-virsme", locale))[1].heading}</p>
                 <Link className="text-link" to={pathFor("why-virsme", locale)}>

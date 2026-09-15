@@ -15,12 +15,95 @@
       href="/brand/favicon-16.png"
     />
     <link rel="apple-touch-icon" href="/brand/favicon-180.png" />
+    <link rel="preload" as="image" href="/brand/logo.png" />
     <meta name="theme-color" content="#2563EB" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>VirSME | AI-Native Business Operating System for SMEs</title>
+    <style id="initial-loader-styles">
+      #initial-loader {
+        position: fixed;
+        inset: 0;
+        z-index: 2147483647;
+        display: grid;
+        place-items: center;
+        background:
+          radial-gradient(circle at 50% 45%, rgba(37, 99, 235, 0.1), transparent 29rem),
+          linear-gradient(135deg, #f8fbff 0%, #ffffff 48%, #faf8ff 100%);
+        opacity: 1;
+        visibility: visible;
+        transition: opacity 260ms ease, visibility 260ms ease;
+      }
+      #initial-loader.initial-loader-hidden {
+        opacity: 0;
+        visibility: hidden;
+        pointer-events: none;
+      }
+      .initial-loader-content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 18px;
+      }
+      .initial-loader-logo {
+        display: block;
+        width: 164px;
+        height: auto;
+        filter: drop-shadow(0 8px 14px rgba(37, 99, 235, 0.2));
+        animation: initial-loader-float 1.8s ease-in-out infinite;
+      }
+      .initial-loader-track {
+        width: 126px;
+        height: 3px;
+        overflow: hidden;
+        border-radius: 999px;
+        background: #e5eaf3;
+      }
+      .initial-loader-progress {
+        display: block;
+        width: 48%;
+        height: 100%;
+        border-radius: inherit;
+        background: linear-gradient(90deg, #08b76b, #0878f9 52%, #7638e8);
+        animation: initial-loader-slide 1.15s ease-in-out infinite;
+      }
+      @keyframes initial-loader-float {
+        0%, 100% { transform: translateY(0) scale(1); }
+        50% { transform: translateY(-4px) scale(1.025); }
+      }
+      @keyframes initial-loader-slide {
+        from { transform: translateX(-110%); }
+        to { transform: translateX(270%); }
+      }
+      @media (prefers-reduced-motion: reduce) {
+        .initial-loader-logo,
+        .initial-loader-progress { animation-duration: 3s; }
+      }
+    </style>
   </head>
   <body>
+    <div id="initial-loader" role="status" aria-label="Loading VirSME">
+      <div class="initial-loader-content">
+        <img class="initial-loader-logo" src="/brand/logo.png" alt="VirSME" />
+        <div class="initial-loader-track" aria-hidden="true">
+          <span class="initial-loader-progress"></span>
+        </div>
+      </div>
+    </div>
+    <noscript><style>#initial-loader{display:none}</style></noscript>
     <div id="root"></div>
     <script type="module" src="/src/main.tsx"></script>
+    <script>
+      (() => {
+        const dismiss = () => {
+          const loader = document.getElementById("initial-loader");
+          if (!loader || loader.classList.contains("initial-loader-hidden")) return;
+          loader.classList.add("initial-loader-hidden");
+          window.setTimeout(() => loader.remove(), 320);
+        };
+        window.__dismissVirSMELoader = dismiss;
+        window.addEventListener("load", () => window.setTimeout(dismiss, 100), { once: true });
+        window.setTimeout(dismiss, 3000);
+      })();
+    </script>
   </body>
 </html>
