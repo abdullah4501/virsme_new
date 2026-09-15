@@ -43,11 +43,11 @@ export const heroHeading = (page: PageName, locale: Locale, fallback: string) =>
   headings[locale][page] ?? fallback
 
 export const heroArtwork = (page: PageName) => {
-  if (['people'].includes(page)) return 'people'
+  if (page === 'applications') return 'applications'
+  if (['people', 'why-virsme', 'about'].includes(page)) return 'business'
   if (['work','workflows','implementation'].includes(page)) return 'operations'
   if (['sales','pricing','ecosystem'].includes(page)) return 'sales'
   if (page === 'ai') return 'ai'
-  if (page === 'why-virsme') return 'platform'
-  if (['connect','resources','about','book-demo'].includes(page)) return 'connect'
+  if (['connect','resources','book-demo'].includes(page)) return 'connect'
   return 'platform'
 }

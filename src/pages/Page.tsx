@@ -39,7 +39,7 @@ export default function Page({
   const heroIntro =
     p.intro || (page === "resources" ? p.description || p.hero : "");
   const heroStyle = {
-    "--page-hero-image": `url('/images/hero-${art}.webp')`,
+    "--page-hero-image": `url('/images/hero-${art}.png')`,
   } as CSSProperties;
   return (
     <div className={`page page-${page}`}>
